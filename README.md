@@ -57,20 +57,6 @@ Deep-dives into qualitative demographic attributes and individual service line p
 * **Service Ecosystem Penetration:** Evaluates account health by tracking subscription percentage rates across core offerings including Phone Service, Online Security, Backup, Device Protection, and Tech Support.
 * **Churn Density Distribution:** Features an Area Chart plotting total customer volumes against precise Monthly Charges to isolate exact pricing friction points.
 
-
----
-
-## 📂 Repository Structure
-```text
-├── 📁 sql/                     # Housed SQL queries and exploratory analytical scripts
-│   └── pwc_churn_queries.sql
-├── 📁 dashboard/               # Contains the final interactive Power BI framework file
-│   └── PwC_Telecom_Churn.pbix
-├── 📁 datasets/                # Contains the raw/cleaned source dataset used for the project
-│   └── 01 Churn-Dataset.csv
-└── 📝 README.md                # Enterprise-level documentation (this file)
-```
-
 ---
 
 ## 🚀 Execution Instructions
