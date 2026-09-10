@@ -25,13 +25,13 @@ SELECT
     SUM(CASE WHEN Churn = 'Yes' THEN 1 ELSE 0 END) AS Total_Churned_Customers,
     ROUND(SUM(CASE WHEN Churn = 'Yes' THEN 1 ELSE 0 END) * 100.0 / COUNT(customerID), 2) AS Global_Churn_Rate_Percentage,
     ROUND(SUM(TotalCharges), 2) AS Total_Historical_Revenue
-FROM [01 Churn-Dataset];
+FROM 01 Churn-Dataset;
 
 -- 2. Quantifying Support Ticket Workloads (Should yield 2,955 Tech and 3,632 Admin tickets)
 SELECT 
     SUM(numTechTickets) AS Total_Tech_Tickets,
     SUM(numAdminTickets) AS Total_Admin_Tickets
-FROM [01 Churn-Dataset];
+FROM 01 Churn-Dataset;
 ```
 
 ---
